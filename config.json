@@ -13,16 +13,16 @@
     "eventDisabled": [],
     "autoClean": true,
     "ACCESSTOKEN": "",
-    "BOTNAME": "Muskan",
-    "AMDIN_NAME": "Raza",
+    "BOTNAME": "bot2",
+    "AMDIN_NAME": "Shaan",
     "FACEBOOK_ADMIN": "https://www.facebook.com/61588112703542",
     "PREFIX": ".",
     "ADMINBOT": [
-        "100065216344877",
+        "100016828397863",
         ""
     ],
     "NDH": [
-        "100065216344877",
+        "100016828397863",
         ""
     ],
     "DATABASE": {
@@ -30,7 +30,7 @@
             "storage": "antists.sqlite"
         }
     },
-    "APPSTATEPATH": "appstate.json",
+    "APPSTATEPATH": "cookie.txt",
     "FCAOption": {
         "forceLogin": true,
         "listenEvents": true,
