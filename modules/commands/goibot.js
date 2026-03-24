@@ -4,7 +4,7 @@ module.exports.config = {
   name: "goibot",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "𝐊𝐀𝐒𝐇𝐈𝐅 𝐑𝐀𝐙𝐀",
+  credits: "𝐒𝐇𝐀𝐀𝐍-𝐊𝐇𝐀𝐍",
   description: "Talk with bot (no prefix needed)",
   commandCategory: "Noprefix",
   usages: "noprefix",
@@ -34,19 +34,19 @@ ${msg}
 
   // Example replies converted into English + Bold Unicode style
   if (event.body?.toLowerCase() === "hi" || event.body?.toLowerCase() === "hello") {
-    return api.sendMessage(decorate("𝗛𝗲𝗹𝗹𝗼 👋 How are you?"), threadID, messageID);
+    return api.sendMessage(decorate("𝘼𝙨𝙡𝙖𝙢𝙪𝙖𝙡𝙞𝙠𝙪𝙢👋 How are you?"), threadID, messageID);
   }
 
   if (event.body?.toLowerCase() === "owner") {
     return api.sendMessage(
-      decorate("💝🥀 𝗢𝗪𝗡𝗘𝗥: 𝐊𝐀𝐒𝐇𝐈𝐅 𝐑𝐀𝐙𝐀 💫\n🖤 You can call him 𝗥𝗔𝗭𝗔 🖤\n📌 Facebook: www.facebook.com/100001854531633\n📩 Telegram: @alijanhunyaar"),
+      decorate("💝🥀 𝗢𝗪𝗡𝗘𝗥: 𝐒𝐇𝐀𝐀𝐍-𝐊𝐇𝐀𝐍 💫\n🖤 You can call him 𝐒𝐡𝐚𝐧𝐢 🖤\n📌 Facebook:https://www.facebook.com/profile.php?id=100016828397863\n📩 Telegram: @shankhamk345"),
       threadID
     );
   }
 
   if (event.body?.toLowerCase() === "who created you" || event.body?.toLowerCase() === "creator") {
     return api.sendMessage(
-      decorate("❤️ My creator is 𝐊𝐀𝐒𝐇𝐈𝐅 𝐑𝐀𝐙𝐀. He edits me daily and made me to spread happiness."),
+      decorate("❤️ My creator is 𝐒𝐇𝐀𝐀𝐍-𝐊𝐇𝐀𝐍. He edits me daily and made me to spread happiness."),
       threadID
     );
   }
