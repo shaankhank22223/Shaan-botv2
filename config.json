@@ -15,7 +15,7 @@
     "ACCESSTOKEN": "",
     "BOTNAME": "bot2",
     "AMDIN_NAME": "Shaan",
-    "FACEBOOK_ADMIN": "https://www.facebook.com/61588112703542",
+    "FACEBOOK_ADMIN": "https://www.facebook.com/profile.php?id=100016828397863",
     "PREFIX": ".",
     "ADMINBOT": [
         "100016828397863",
@@ -30,7 +30,7 @@
             "storage": "antists.sqlite"
         }
     },
-    "APPSTATEPATH": "cookie.txt",
+    "APPSTATEPATH": "Appstate.json",
     "FCAOption": {
         "forceLogin": true,
         "listenEvents": true,
