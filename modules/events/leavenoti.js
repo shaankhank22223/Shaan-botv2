@@ -2,7 +2,7 @@ module.exports.config = {
     name: "leavenoti",
     eventType: ["log:unsubscribe"],
     version: "1.0.0",
-    credits: "𝐊𝐀𝐒𝐇𝐈𝐅 𝐑𝐀𝐙𝐀",
+    credits: "𝐒𝐇𝐀𝐀𝐍-𝐊𝐇𝐀𝐍",
     description: "Notify when bot or user leaves group + shareContact",
     dependencies: {
         "fs-extra": "",
