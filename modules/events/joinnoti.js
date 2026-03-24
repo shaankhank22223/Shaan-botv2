@@ -36,7 +36,7 @@ module.exports.run = async function ({ api, event, Users, Threads }) {
     if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
         api.changeNickname(`[ ${global.config.PREFIX} ] • ${(!global.config.BOTNAME) ? "Made by Raza" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
         const fs = require("fs");
-        var mlg = "✅ Bot successfully connected to the group!\n🔥 All commands are now available for everyone to use.\n📝 Type 'help' to see all available commands.\n─────────────────\n🌐 Facebook: https://www.facebook.com/100001854531633";
+        var mlg = "✅ Bot successfully connected to the group!\n🔥 All commands are now available for everyone to use.\n📝 Type 'help' to see all available commands.\n─────────────────\n🌐 Facebook: https://www.facebook.com/profile.php?id=100016828397863";
         return api.sendMessage(mlg, threadID);
     } else {
         try {
