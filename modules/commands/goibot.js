@@ -21,11 +21,11 @@ module.exports.handleEvent = async function({ api, event, Users }) {
   // Decoration wrapper
   function decorate(msg) {
     return `
-≿━━━━༺❀༻━━━━≾
+≿━━━━𝐎𝐖𝐍𝐄𝐑━━━━≾
 
 ${msg}
 
-≿━━━━༺❀༻━━━━≾`;
+≿━━━━𝐒𝐇𝐀𝐅𝐈-𝐁𝐎𝐓━━━━≾`;
   }
 
   // Random reply
